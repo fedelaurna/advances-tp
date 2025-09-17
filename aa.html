@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Api de la NASA</title>
+    <link rel="stylesheet" href="sttyle.css">
+</head>
+<body>
+
+
+    <div id="contenedor">
+<img id="logo" src="data:image/png;base64,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" alt="">
+<h2>Api de la NASA</h2>
+      <p>Esta pagina sirve para mostrar fotos de determinado dia mediante una Api de la NASA 
+        segun lo indique el usuario. 
+      </p>
+
+
+
+      </div>
+   <div>
+<div class="caja">
+     <h1 id="titulo">Esta es la imagen de hoy </h1>
+     <img id="imagenDelDia" src="" alt="imagen Del Dia">
+     <p id="autorImagenDelDia" class="autor">Autor: </p>
+ <p id="infoImagenDelDia" class="info">Descripción: </p>
+
+   <div class="botones">
+       <button id="boton"> mostrar </button>
+
+   </div>
+</div>
+
+
+
+<div class="caja">
+    <h1 id="tituloImagenFecha">elegir fecha </h1>
+    <img id="imagenFecha" src="" alt="imagen Del Dia">
+     <p id="autorImagenFecha" class="autor">Autor: </p>
+   <p id="infoImagenFecha" class="info">Descripción: </p>
+
+  <div class="botones">
+     <input type="date" name="fecha" id="fecha">
+    <button id="botonFecha"> mostrar </button>
+
+  </div>
+</div>
+
+
+
+<div class="caja">
+    <h1 id="titulo">Elegir cantidad de foto </h1>
+      <div class="contenedor-imagen">
+        <img id="" src="" alt="imagen del imagen Del Dia">
+      </div>
+
+    
+  <div class="botones">
+      <input type="text" name="cantidad" id="cantidad" placeholder="ingresa un numero de cantidad de fotos">
+      <button id="botonCantidad"> mostrar </button>
+
+  </div>
+</div>
+
+
+   <div class="caja">
+    <h2>Imágenes de los 3 días anteriores</h2>
+    <input type="date" id="fechaTresDias">
+<button id="botonTresDias">Mostrar fotos</button>
+<div id="contenedorTresDias"></div>
+    
+      </div>
+      </div>
+
+</div>
+
+</body>
+<script src="apodo.js"></script>
+</html>
