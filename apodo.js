@@ -53,6 +53,7 @@ for (let i= 0; i < fotos.length; i++) {
     }
    })
   }
+//con ayuda de IA
   let botonTresDias = document.querySelector("#botonTresDias")
   let fechaInput = document.querySelector("#fechaTresDias")
   let contenedor = document.querySelector("#contenedorTresDias")
@@ -82,4 +83,5 @@ for (let i= 0; i < fotos.length; i++) {
         })
     }
   }
+
   
