@@ -4,6 +4,33 @@ html{
     text-align: center
 }
 
+#barra-superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+#logo {
+  height: 60px;
+  width: auto;
+}
+
+#link-aleatorio {
+  color: #0e2d46;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+
+#links-derecha {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;   
+
+  }
  body {
   background-color: rgb(158, 211, 232);
   
@@ -13,13 +40,8 @@ html{
 
 
 }
-#logo {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 100px;
-  }
-  
+
+
 #contenedor {
   background-color: #0077cc;
   color: white;
@@ -28,8 +50,8 @@ html{
   border-radius: 8px;
   margin-bottom: 30px;
   font-size: 18px;
- 
 }
+
 
 .caja {
     display: block;      

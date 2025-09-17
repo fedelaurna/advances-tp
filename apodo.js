@@ -1,3 +1,4 @@
+
 let key="5hgcwemdorrZZQWCcgkqttIk7r8jH6KDy0qsTQes"
 
 let imagenDelDia = document.querySelector("#imagenDelDia")
@@ -60,7 +61,7 @@ for (let i= 0; i < fotos.length; i++) {
   
   botonTresDias.onclick = () => {
     contenedor.innerHTML = ""
-    if (!fechaInput.value) return alert("Elegí una fecha")
+
   
     let base = new Date(fechaInput.value)
   
@@ -84,4 +85,3 @@ for (let i= 0; i < fotos.length; i++) {
     }
   }
 
-  
