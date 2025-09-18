@@ -20,7 +20,7 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(ci
     */
 
 
-  /* Datos simulados, le pedi a la IA qur mr ayude a vincular la api
+  /* Datos simulados, le pedi a la IA qur me ayude a vincular la api
   y le mostre los errores y le pedi una solucion temporal hasta que se
   active la API y se pueda usar
   https://home.openweathermap.org/api_keys */
